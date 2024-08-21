@@ -3,12 +3,11 @@
 .title-quote{
     color: $color-primary;
     font-family: $font-primary;
-    font-size: 1.5rem;
-    font-weight: 700;
-    margin: 0;
-    padding: 0;
-    margin: 15px 0;
+    font-size: 12PX;
+    font-weight:500;
+    margin: 20px 0;
     align-self: start;
     justify-self: center;
     position: absolute;
+    letter-spacing: 3px;
 }

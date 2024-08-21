@@ -1,1 +1,19 @@
-@import "../../scss/main.scss"
+@import "../../scss/main.scss";
+
+.quote p{
+    color: $color-quote;
+    font-family: $font-primary;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    margin-top: -60px;
+    padding: 0 10px;
+}
+
+@include desktop{
+    .quote p{
+        font-size: 28px;
+        padding: 0 30px;
+    }
+}

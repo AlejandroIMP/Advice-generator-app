@@ -2,8 +2,8 @@ import './Quote.scss'
 
 const Quote = ({ quote }) => {
   return (
-    <div>
-      <p>{quote}</p>
+    <div className='quote'>
+      <p>"{quote}"</p>
     </div>
   )
 }

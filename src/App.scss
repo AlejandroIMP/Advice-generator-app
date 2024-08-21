@@ -5,3 +5,18 @@ main{
     height: 100vh;
     width: 100%;
 }
+
+.attribution{
+    position: absolute;
+    justify-self: center;
+    align-self: self-end;
+    font-family: $font-primary;
+    color: $color-white;
+    font-size: $font-size-small;
+    a{
+        color: $color-white;
+        &:hover{
+            color: $color-quote;
+        }
+    }
+}
