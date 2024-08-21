@@ -56,3 +56,16 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.title-quote {
+  color: hsl(150, 100%, 66%);
+  font-family: "Manrope", serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  margin: 15px 0;
+  align-self: start;
+  justify-self: center;
+  position: absolute;
+}

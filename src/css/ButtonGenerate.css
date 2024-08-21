@@ -56,3 +56,25 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.generate-btn {
+  display: grid;
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: hsl(150, 100%, 66%);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.generate-btn span {
+  background-image: url("../../assets/images/icon-dice.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  width: 25px;
+  height: 50%;
+  align-self: center;
+  justify-self: center;
+}

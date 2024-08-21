@@ -1,0 +1,23 @@
+@import "../../scss/main.scss";
+
+.generate-btn{
+    display: grid;
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: $color-primary;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    span{
+        background-image: url('../../assets/images/icon-dice.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: block;
+        width: 25px;
+        height: 50%;
+        align-self: center;
+        justify-self: center;
+    }
+}

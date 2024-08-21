@@ -2,9 +2,10 @@
 @import "./variables/layout";
 @import "./variables/padding";
 @import "./variables/typography";
+@import "./variables/desktop";
 
 body {
-  background-color: $color-background;
+  background-color: $color-dark-blue;
   margin: 0;
   padding: 0;
 }
