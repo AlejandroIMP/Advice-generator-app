@@ -15,10 +15,15 @@ function App () {
   }, []
   )
   const fetchRandomQuote = async () => {
-    const response = await fetch('https://api.adviceslip.com/advice')
-    const data = await response.json()
-    setQuote(data.slip.advice)
-    setId(data.slip.id)
+    try {
+      const response = await fetch('https://api.adviceslip.com/advice')
+      const data = await response.json()
+      setQuote(data.slip.advice)
+      setId(data.slip.id)
+    } catch (err) {
+      setQuote(err)
+      setId('0')
+    }
   }
   return (
     <main>
