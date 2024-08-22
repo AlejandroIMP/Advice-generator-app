@@ -63,6 +63,15 @@ main {
   width: 100%;
 }
 
+.main--title {
+  position: absolute;
+  justify-self: center;
+  font-family: "Manrope", serif;
+  color: hsl(193, 38%, 86%);
+  font-size: 30px;
+  margin-top: 5%;
+}
+
 .attribution {
   position: absolute;
   justify-self: center;

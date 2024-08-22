@@ -6,6 +6,15 @@ main{
     width: 100%;
 }
 
+.main--title{
+    position: absolute;
+    justify-self: center;
+    font-family: $font-primary;
+    color: $color-quote;
+    font-size: $font-size-medium;
+    margin-top: 5%;
+}
+
 .attribution{
     position: absolute;
     justify-self: center;

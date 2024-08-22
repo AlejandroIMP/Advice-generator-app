@@ -27,6 +27,7 @@ function App () {
   }
   return (
     <main>
+      <h1 className='main--title'>Random Advice Generator</h1>
       <QuoteContainer
         quote={quote}
         id={id}
